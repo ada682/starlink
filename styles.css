@@ -1,0 +1,59 @@
+/* Add your existing CSS here */
+
+/* Live chat styling */
+#live-chat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #000;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#live-chat img {
+    width: 40px;
+    height: 40px;
+}
+
+.product {
+    position: relative;
+}
+
+.add-to-cart {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #444;
+}
+
+/* Animation for the cart */
+#cart-animation {
+    position: fixed;
+    z-index: 1000;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#cart-animation img {
+    width: 30px;
+    height: 30px;
+}
